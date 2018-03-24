@@ -1,0 +1,5 @@
+This project uses Docker containers with ImageMagick and other libraries installed.
+
+Put your files in ./input.  Run `make build`.  Run `make c_image` to open a terminal in the container.
+
+In the terminal, run things like `pngcrush input_image.png /output/image_min.png` to output a minimized version to ./output.
