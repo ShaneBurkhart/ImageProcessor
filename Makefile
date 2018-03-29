@@ -12,4 +12,4 @@ shrink_png:
 	pngnq -n 256 image.png && pngcrush image-nq8.png smallimage.png
 
 download_s3:
-	aws s3 cp s3://construction-vr/renderings/Walnut\ St/44A/ . --recursive
+	aws s3 cp s3://construction-vr/renderings/Walnut\ St/44A/raw/ . --recursive
