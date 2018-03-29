@@ -6,7 +6,7 @@ RUN apt-get update && apt-get install -y libpng-dev pngnq imagemagick pngcrush &
 
 RUN pip install awscli --upgrade
 
-ADD ./lib /app/lib
+ADD . /app
 
 VOLUME ["/app"]
 WORKDIR /app
